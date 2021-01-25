@@ -1,0 +1,7 @@
+{
+  "name": "sidebar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
