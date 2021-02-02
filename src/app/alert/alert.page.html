@@ -1,12 +1,15 @@
 <ion-header>
-    <ion-toolbar>
+    <ion-toolbar color="medium">
         <ion-buttons slot="start">
-            <ion-menu-button style="color: black;"></ion-menu-button>
+            <ion-menu-button></ion-menu-button>
         </ion-buttons>
         <ion-title>alert</ion-title>
     </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+    <ion-button (click)="presentAlertMultipleButtons()" color="secondary" role='destructive' class="md button button-block button-solid ion-activatable ion-focusable hydrated">AlertMultipleButtons</ion-button>
+    <ion-button (click)="presentAlertConfirm()" color="tertiary" role='destructive' class="md button button-block button-solid ion-activatable ion-focusable hydrated">AlertConfirm</ion-button>
+    <ion-button (click)="presentAlertPrompt()" color="warning" role='destructive' class="md button button-block button-solid ion-activatable ion-focusable hydrated">AlertPrompt</ion-button>
+    <ion-button (click)="presentAlert()" role='destructive' class="md button button-block button-solid ion-activatable ion-focusable hydrated">Alert</ion-button>
 </ion-content>

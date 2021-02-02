@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
   {
@@ -30,6 +30,27 @@ const routes: Routes = [
   {
     path: 'card',
     loadChildren: () => import('./card/card.module').then( m => m.CardPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./grid/grid.module').then( m => m.GridPageModule)
+  },
+  {
+    path: 'toolbar',
+    loadChildren: () => import('./toolbar/toolbar.module').then( m => m.ToolbarPageModule)
+  },
+   
+  {
+    path: 'toggle',
+    loadChildren: () => import('./toggle/toggle.module').then( m => m.TogglePageModule)
+  },
+  {
+    path: 'range',
+    loadChildren: () => import('./range/range.module').then( m => m.RangePageModule)
   },
 ];
 

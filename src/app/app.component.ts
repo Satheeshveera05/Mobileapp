@@ -33,33 +33,54 @@ export class AppComponent {
       {
         title : "Home",
         url   : "/home",
-        icon  : "home"
+        icon  : "home-outline"
       },
       {
         title : "Action Sheet",
         url   : "/actionsheet",
-        icon  : "document"
+        icon  : "document-text-outline"
       },
       {
         title : "Alert",
         url   : "/alert",
-        icon  : "alert"
+        icon  : "alert-circle-outline"
       },
       {
         title : "Badge",
         url   : "/badge",
-        icon  : "aperture"
+        icon  : "medical-outline"
       },
       {
         title : "Button",
         url   : "/button",
-        icon  : "menu"
+        icon  : "power-outline"
       },
       {
         title : "Card",
         url   : "/card",
-        icon  : "albums"
+        icon  : "layers-outline"
       },
+      {
+        title : "Grid",
+        url   : "/grid",
+        icon  : "grid-outline"
+      },
+      {
+        title : "Toolbar",
+        url   : "/toolbar",
+        icon  : "hammer-outline"
+      },
+      {
+        title : "Toggle",
+        url   : "/toggle",
+        icon  : "toggle-outline"
+      },
+      {
+        title : "Range slide",
+        url   : "/range",
+        icon  : "git-branch-outline"
+      },
+       
     ]
   }
 }
