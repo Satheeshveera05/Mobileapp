@@ -6,6 +6,9 @@
 
 
 <ion-content class="login-con">
+
+    <img src="../../assets/boodskap-logo-bold.png" alt="logo">
+
     <ion-card class="login-card">
         <ion-card-header>
             <ion-card-title class="hd">Login</ion-card-title>
@@ -13,11 +16,11 @@
         </ion-card-header>
         <ion-item>
             <ion-label position="floating">Username</ion-label>
-            <ion-input type="text" [(ngModel)]="username" required></ion-input>
+            <ion-input type="text" [(ngModel)]="username" id="user" required></ion-input>
         </ion-item>
         <ion-item>
             <ion-label position="floating">Password</ion-label>
-            <ion-input type=password [(ngModel)]="password" required></ion-input>
+            <ion-input type=password [(ngModel)]="password" id="pass" required></ion-input>
         </ion-item><br>
         <ion-button expand="block" (click)="presentLoading()">login</ion-button>
 
@@ -25,4 +28,8 @@
 
 
     </ion-card>
+    <img src="../../assets/bdskap-logo.png" alt="logo" style="margin-top: 510px; height: 56px;">
+    <hr>
+    <p style="margin-top: 580px; ">copyright @ Boodskap</p>
+
 </ion-content>

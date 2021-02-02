@@ -1,19 +1,38 @@
 .login-con {
-    --background: url("../../assets/pngtree-mobile-app-app-advertising-background-image_162392.jpg") 0 0/100% 100% no-repeat;
+    --background: url("../../assets/6d8ac1a8888d08305e9a707359099cd0.jpg") 0 0/100% 100% no-repeat;
 }
 
 .login-card {
     padding: 15px;
-    margin-top: 5px;
+    margin-top: 163px !important;
     width: auto;
-    margin: 28px;
+    position: absolute;
+    margin: 12px;
+    left: 0;
+    right: 0px;
     border-radius: 16px;
 }
 
 ion-button {
     --background: gray;
+    --font-weight: bold;
+}
+
+ion-button:hover {
+    --background: lightgray;
+    --color: black;
+    --font-weight: bold;
 }
 
 .hd {
     color: gray;
+}
+
+img,
+p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 65px;
 }
